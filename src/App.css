@@ -1,0 +1,96 @@
+.container {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSq7GWwrbAGpNx2UHUWWzm5zeBHOWIAhW_s7_ZG3hR3XYmodqYSGywNXQkswa01cpX7r4&usqp=CAU");
+  margin: 50px auto;
+  border: 2px solid black;
+  width: 30vw;
+  height: 80vh;
+  border-radius: 10px;
+  position: relative;
+  background-size: cover;
+}
+
+.container h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.container hr {
+  border-color: white;
+}
+
+.chatbot {
+  padding: 0;
+}
+
+.chatbot li {
+  display: flex;
+  align-items: center;
+}
+
+.chatbot li p {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid white;
+  width: 20vw;
+  border-radius: 10px;
+  margin: 0;
+  padding: 8px 5px;
+}
+
+.chatbot li {
+  list-style: none;
+}
+
+.chatbot li span {
+  margin-right: 10px;
+}
+
+.outgoing {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container .input {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.input textarea {
+  width: 25vw;
+  min-height: 8vh;
+  background: transparent;
+  border: none;
+  border-top: 2px solid white;
+  outline: none;
+  font-size: medium;
+  color: white;
+}
+
+.input .btn {
+  width: 5vw;
+  background: transparent;
+  border: none;
+  border-top: 2px solid white;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: medium;
+}
+
+.btn:hover{
+  color: grey;
+}
+
+.chatbot {
+  max-height: 350px; /* Adjust the max height as needed */
+  overflow-y: auto; /* Add a vertical scrollbar when content exceeds the max height */
+}
+
+
